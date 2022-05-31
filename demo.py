@@ -45,7 +45,7 @@ number_frames[0].pack()
 
 # Add corn row lol
 corn_frame = Frame(root, bg="black")
-corn_photo = PhotoImage(file="corn_row.png")
+corn_photo = PhotoImage(file="./images/corn_row.png")
 corn = Label(corn_frame, image=corn_photo, bg="black")
 corn.pack(side=LEFT)
 corn_frame.pack(pady=(40, 0))
@@ -58,7 +58,7 @@ row_heading_labels.append(Label(heading_frame, text="AROUND CORNER", font=("Chal
 row_heading_labels[1].pack(ipady=30, side=LEFT)
 
 # Add arrow to indicate "AROUND CORNER"
-photo = PhotoImage(file="arrow.png")
+photo = PhotoImage(file="./images/arrow.png")
 arrow = Label(heading_frame, image=photo, bg="black")
 arrow.pack(side=LEFT)
 

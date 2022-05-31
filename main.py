@@ -59,7 +59,7 @@ number_frame.pack()
 
 # Add corn row lol
 corn_frame = Frame(root, bg="black")
-corn_photo = PhotoImage(file="corn_row.png")
+corn_photo = PhotoImage(file="./images/corn_row.png")
 corn = Label(corn_frame, image=corn_photo, bg="black")
 corn.pack(side=LEFT)
 corn_frame.pack(pady=(40,0))
@@ -76,7 +76,7 @@ label_heading2.pack(ipady=30, side=LEFT)
 label_heading2.timer = ' '
 
 # Add arrow to indicate "AROUND CORNER"
-photo = PhotoImage(file="arrow.png")
+photo = PhotoImage(file="./images/arrow.png")
 arrow = Label(heading_frame, image=photo, bg="black")
 arrow.pack(side=LEFT)
 
@@ -163,7 +163,7 @@ def flash_once1(event, counter=0):
     elif counter >= int(my_counter): # How many times it will flash
         nmbr_1['bg'] ="black"
         nmbr_1['fg'] ="black"
-#root.bind("1", flash_once1)
+root.bind("1", flash_once1)
 
 def flash_once2(event, counter=0):
     if (counter == 0):
