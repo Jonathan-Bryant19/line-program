@@ -102,9 +102,11 @@ python3 main.py
 An image of the original mockup can be found [here](./client-mockup/mockup-1.png) and an image of the written description can be found [here](./client-mockup/mockup-2.png).
 
 Here is an image of the hardware prototype:
+<br />
 <img src="./demo-files/prototype.jpeg" alt="prototype" height="auto" width="400">
 
 And here is the installed hardware:
+<br />
 <img src="./demo-files/install.jpeg" alt="installed hardware" height="auto" width="400">
 
 <p align="right">(<a href="#top">back to top</a>)</p>
